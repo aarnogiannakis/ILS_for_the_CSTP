@@ -4,7 +4,7 @@ This project implements a Iterated Local Search metaheuristic so solve a variati
 ### Key aspects of this algorithm include:
 -   **Neighborhood Operator**: The 2-opt/3-opt move is employed as the neighborhood operator depending on the file you choose.
 -   **Termination Criteria**: The algorithm uses a time limit as the primary termination criterion.
--   **Step Criterion**: Adopts the "Best Improvement" strategy is utilized.
+-   **Step Criterion**: Adopts the "Best Improvement" strategy.
 -   **Cost**: The algorithm operates based on a cost matrix, which is specified through a filename.
 -   **Initialization**: Implements a nearest neighbor construction heuristic for generating an initial solution.
 -   **Perturbation**: Incorporates the Double Bridge Perturbation method.
